@@ -20,7 +20,7 @@ jobs:
           java-version: '17'
 
       - name: Extract Android project
-        run: unzip -o ShandilyaGroup-Android-Starter.zip -d .
+        run: unzip -o ShandilyaGroup-Android-WebView.zip -d .
 
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
